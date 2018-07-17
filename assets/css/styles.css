@@ -1,0 +1,42 @@
+#brochure_builder_form label {
+  display: block;
+  width: 100%;
+}
+
+#brochure_builder_form input, 
+#brochure_builder_form select {
+  width: 100%;
+  padding: 4px !important;
+  background-color: #FFF !important;
+  display: block !important;
+  clear: both !important;
+  border: 1px solid #CCC !important;
+  margin-bottom: 10px !important;
+}
+
+#brochure_builder_form .required {
+  color: #333;
+}
+
+#brochure_builder_form .required label:after {
+  color: #F00;
+  content: ' *';
+}
+
+#brochure_builder_form em {
+  font-size: 90%;
+}
+
+.bb_alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.bb_alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
